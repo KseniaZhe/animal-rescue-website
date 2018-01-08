@@ -34,13 +34,13 @@ html {
 
 .btn-ghost {
   background-color: #ff8b00;
-  border: 0;
-  color: #fff;
+  border: solid 2px #1b1618;
+  color: #1b1618;
 }
 
 .btn-ghost:hover {
   background-color: #fff;
-  border: solid 3px #1b1618;
+  border: solid 2px #1b1618;
   color: #1b1618;
 }
 
