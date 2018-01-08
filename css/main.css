@@ -82,6 +82,10 @@ html {
   color: #1b1618;
 }
 
+.light-brown {
+  color: rgba(27, 22, 24, .75);
+}
+
 .white {
   color: #fff;
 }
@@ -141,11 +145,64 @@ footer {
   background-color: #1b1618;
 }
 
-/* ------- rescues page ---------- */
+/* ------- adopt page ---------- */
 
 .current {
   background-color: #ff8b00;
   color: #1b1618;
   border-radius: 5px;
+}
 
+.banner-adopt {
+  background: linear-gradient(to top, rgba(27, 22, 24, .3), transparent) no-repeat center top / 100% 100%, url("../images/banner-adopt-1.jpg") no-repeat center center / cover;
+  padding-top: 35%;
+  min-height: 500px;
+}
+
+.hang-punc {
+  margin-left: -1.3em;
+  width: 1.2em;
+}
+
+fieldset,
+.fieldset {
+  border-top: none;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .space-left {
+    padding-left: .75rem;
+  }
+
+  .space-right {
+    padding-right: .75rem;
+  }
+
+  .hang-punc {
+    margin-left: -2em;
+    width: 1.4em;
+  }
+
+}
+
+input,
+textarea,
+select {
+  display: block;
+  width: 100%;
+  background-color: rgba(255, 139, 0, .07);
+  border: 1px solid rgba(27, 22, 24, .5);
+  border-radius: 5px;
+  height: 35px;
+}
+
+input[type="radio"] + label::before,
+input[type="checkbox"] + label::before {
+  border: 1px solid rgba(27, 22, 24, .5);
+  background-color: rgba(255, 139, 0, .07);
+}
+
+.hr-form {
+  border-top: solid 2px rgba(27, 22, 24, .25);
 }
