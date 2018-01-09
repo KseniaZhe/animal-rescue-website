@@ -4,7 +4,7 @@ html {
 
 .banner {
   background: linear-gradient(to top, rgba(27, 22, 24, .3), transparent) no-repeat center top / 100% 100%, url("../images/banner-2.jpg") no-repeat center top / cover;
-  padding-top: 52%;
+  padding-top: 47%;
   min-height: 500px;
 }
 
@@ -238,4 +238,31 @@ input[type="checkbox"] + label::before {
 
 .link-details:hover {
   color: #ff8b00;
+}
+
+/* ------------ rescue page ----------- */
+
+.banner-rescue {
+  background: linear-gradient(to top, rgba(27, 22, 24, .3), transparent) no-repeat center top / 100% 100%, url("../images/banner-rescue-2.jpg") no-repeat center center  / cover;
+  padding-top: 35%;
+  min-height: 500px;
+}
+
+.txt-left-right-left {
+  text-align: left;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .txt-left-right-left {
+    text-align: right;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  .txt-left-right-left {
+    text-align: left;
+  }
+
 }
