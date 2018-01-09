@@ -235,3 +235,7 @@ input[type="checkbox"] + label::before {
 .hr-form {
   border-top: solid 2px rgba(27, 22, 24, .25);
 }
+
+.link-details:hover {
+  color: #ff8b00;
+}
