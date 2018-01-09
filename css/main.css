@@ -5,7 +5,7 @@ html {
 .banner {
   background: linear-gradient(to top, rgba(27, 22, 24, .3), transparent) no-repeat center top / 100% 100%, url("../images/banner-2.jpg") no-repeat center top / cover;
   padding-top: 47%;
-  min-height: 500px;
+  min-height: 400px;
 }
 
 .banner-content {
@@ -162,7 +162,7 @@ footer {
 .banner-adopt {
   background: linear-gradient(to top, rgba(27, 22, 24, .3), transparent) no-repeat center top / 100% 100%, url("../images/banner-adopt-1.jpg") no-repeat center center / cover;
   padding-top: 35%;
-  min-height: 500px;
+  min-height: 400px;
 }
 
 .hang-punc {
@@ -247,7 +247,7 @@ input[type="checkbox"] + label::before {
 .banner-rescue {
   background: linear-gradient(to top, rgba(27, 22, 24, .3), transparent) no-repeat center top / 100% 100%, url("../images/banner-rescue-2.jpg") no-repeat center center  / cover;
   padding-top: 35%;
-  min-height: 500px;
+  min-height: 400px;
 }
 
 .txt-left-right-left {
